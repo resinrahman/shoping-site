@@ -1,0 +1,34 @@
+.top{
+    display: flex;
+    width: fit-content;
+    border: 1px solid black;
+}
+.bottom{
+    display: flex;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+}
+.main-container{
+    width: fit-content;
+    height: 100px;
+    
+    
+}
+.t1{
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.t2{
+    padding: 10px;
+}
+.tbl{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.main-box{
+    padding: 20px;
+}

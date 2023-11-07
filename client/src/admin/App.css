@@ -1,0 +1,39 @@
+.maindiv{
+    height: 100vh;
+   display: grid;
+   grid-template-areas: 
+   'Sidebar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar'
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home  '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home '
+   'Sidebar Home  Home  Home  Home  Home  Home  Home  Home  Home ';
+}
+.n1{
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    border-right: 1px solid black;
+    grid-area: Navbar;
+    height: 85px;
+}
+.s1{
+    border: 1px solid black ;
+    grid-area: Sidebar;
+    display: flex;
+    justify-content: center; 
+}
+.home{grid-area: Home}
+body{
+    margin: 0;
+}
+.home{
+    padding: 10px;
+}

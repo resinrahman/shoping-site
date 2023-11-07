@@ -1,0 +1,47 @@
+.main-side{
+    background-color: #fff; 
+    
+}
+*{margin: 0;}
+.heading{
+    color: black;
+    font-size: x-large; 
+}
+.state{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.district{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.place{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.cat{
+
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.sub-cat{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.dashboard{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.top-main{
+    display: flex;
+    padding: 15px;
+}
+.middle-one{
+    padding: 15px;
+}
+.middle-two{
+    padding: 15px;
+}
+.bottom-main{
+    padding: 15px;
+}
